@@ -3,7 +3,25 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 3;
+let name = 'Cesar';
+let greeting = 'HEY'
 
+function multiply (firstparameter){
+  x = x * firstparameter
+  console.log (3) 
+}
+
+function opposite (anynumber) {
+z = -z
+}
+
+function makeFullName (stringparameter){
+  name = name + stringparameter 
+  console.log ()
+}
 
 
 
