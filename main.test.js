@@ -9,18 +9,24 @@ let z = 3;
 let name = 'Cesar';
 let greeting = 'HEY'
 
-function multiply (firstparameter){
-  x = x * firstparameter
+function multiply (num){
+  x = x * num;
   console.log (3) 
 }
+function modYBy (num) {
+  y = y % num;
 
-function opposite (anynumber) {
-z = -z
+}
+function opposite (num) {
+z = -num;
 }
 
-function makeFullName (stringparameter){
-  name = name + stringparameter 
-  console.log ()
+function makeFullName (lastName){
+  name = name +   + lastName;
+}
+
+function yellAt (name){
+  greeting = greeting + ', ' + name +  '!';
 }
 
 
